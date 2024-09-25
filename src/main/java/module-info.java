@@ -11,6 +11,6 @@ module com.jmc.mazebank.mazebank {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.jmc.mazebank.mazebank to javafx.fxml;
-    exports com.jmc.mazebank.mazebank;
+    opens com.jmc.mazebank to javafx.fxml;
+    exports com.jmc.mazebank;
 }
